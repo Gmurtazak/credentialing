@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+    .page-body{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .sidebar-wrapper{
+        display: none;
+    }
+    .collections .nav-tabs{
+        white-space: nowrap;
+        overflow-x: auto;
+        display: block;
+    }
+
+    .collections .c-table th,
+    .collections .c-table td{
+        width:calc( (100% / 2) - 0px ) !important;
+    }
+   .collections .c_card{
+       padding: 14px;
+   }
+    .collections .c_card p{
+        font-size: 13px;
+    }
+    .collections .c_card h2{
+        font-size: 20px;
+    }
+    .collections.pc .c-table th, .collections.pc .c-table td{
+        width:calc( (100% / 4) - 0px ) !important;
+    }
+    .tab-content > .tab-pane{
+        overflow: auto;
+    }
+}

@@ -1,0 +1,1424 @@
+body {
+    background: #F9F9F9;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+button:focus {
+    box-shadow: none;
+}
+
+/* header  */
+.container.headerDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.headerDiv .welcome span {
+    display: inline-block;
+}
+
+.headerDiv .welcome img,
+.headerDiv .user img {
+    vertical-align: top;
+}
+
+.headerDiv p {
+    color: #8A898E;
+    margin: 0;
+}
+
+.headerDiv h2 {
+    margin-bottom: 0;
+}
+
+img.wave {
+    max-width: 45px;
+}
+
+img.logo {
+    border-radius: 4px;
+    padding: 0 !important;
+    max-width: 50px !important;
+}
+
+.user span {
+    display: inline-block;
+    text-align: left;
+}
+
+.user {
+    text-align: end;
+    margin: auto;
+}
+
+.headerDiv .user img.dropdownImg {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.user h4 {
+    margin-bottom: 2px;
+}
+
+
+/* dropdown */
+.user .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.user .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #8A898E;
+    padding: 05px;
+    /* margin-top: 10px; */
+    right: 0;
+}
+
+.user .dropdown-menu:hover {
+    background-color: #F24C46;
+    border-color: #F24C46;
+
+}
+
+.dropdown-menu:hover a {
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+/* dropdown end  */
+
+
+/* breadcrumb */
+.breadcrumb .breadcrumb-item a {
+    color: #8A898E;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+ol.breadcrumb {
+    margin-bottom: 2px;
+}
+
+.breadcrumb .breadcrumb-item.active a {
+    color: #F24C46;
+}
+
+span.breadcrumbNesitem {
+    width: auto;
+    display: inline-block;
+    padding: 10px 15px 10px 0;
+}
+
+.breadcrumbNes {
+    border-bottom: 2px solid #EDEDEE;
+}
+
+span.breadcrumbNesitem.active {
+    color: #F24C46;
+    /* border-bottom: 2px solid #F24C46;     */
+}
+
+.breadcrumbNesitem hr {
+    opacity: 1;
+    margin: 16px 3px -23px 0;
+    height: 3px !important;
+}
+
+
+/* editprofile */
+/* .providerDetailsForms {
+    padding-bottom: 50px;
+} */
+
+section.editProfile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location {
+    text-decoration: none;
+    color: #8A898E;
+}
+
+.location:hover {
+    color: #F24C46;
+}
+
+.Editbutton {
+    text-align: end;
+}
+
+.addressIcon,
+.addressText {
+    /* vertical-align: top; */
+    display: inline-block;
+}
+
+button.btn.edit {
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #ededee;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button.btn.edit span {
+    vertical-align: inherit;
+}
+
+
+
+.info {
+    border-radius: 10px;
+    border: 2px solid #ededee;
+}
+
+.infoHead h3,
+.infoHead a {
+    display: inline-block;
+}
+
+.infoHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoHead h3 {
+    margin: 0;
+}
+
+.info .card-body {
+    border-bottom: 2px solid #ededee;
+}
+
+.saveButton {
+    display: flex;
+    align-items: end;
+}
+
+button#saveBtn,
+button#saveBtn2,
+button#saveBtn3,
+button#saveBtn4 {
+    background: #e51e25;
+    color: white;
+    padding: 5px 50px;
+}
+
+.infoForm input,
+.addForm input,
+.accForm input,
+.docForm input {
+    border: none;
+    background: #ffffff00 !important;
+    color: #8A898E;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .375rem .75rem;
+    padding-left: 0;
+}
+
+.infoForm label,
+.addForm label,
+.accForm label,
+.docForm label {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.infoForm input:focus,
+.addForm input:focus,
+.accForm input:focus,
+.docForm input:focus {
+    padding-left: 10px;
+    box-shadow: 0 0 0 0.10rem rgb(0 0 0) !important;
+    border: #000000;
+}
+
+.infoForm input:focus-visible,
+.addForm input:focus-visible,
+.accForm input:focus-visible {
+    padding-left: 10px;
+}
+
+.btn-eye:focus {
+    box-shadow: none;
+}
+
+.docInput {
+    display: flex;
+}
+
+.docInput input {
+    margin-left: auto;
+    width: auto;
+    padding-left: 10px;
+}
+
+.docForm .form-group {
+    padding: 5px 0 !important;
+    border-bottom: 2px solid #ededee;
+}
+
+.docInfo .container {
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+}
+
+.docLabel label {
+    vertical-align: middle;
+}
+
+.otherForms {
+    border-bottom: none !important;
+}
+
+.saveButton.savDoc {
+    padding-bottom: 15px;
+}
+
+.saveButton .button-container {
+    margin: auto;
+}
+
+span.nameShort {
+    font-size: 14px;
+    background: #EDEDED;
+    margin-left: 5px;
+    padding: 2px 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    span.nameShort {
+        font-size: 10px;
+    }
+
+    img.logo {
+        max-width: 50px;
+    }
+
+    .welcome {
+        text-align: center;
+        /* padding-bottom: 15px; */
+    }
+
+    /* .user {
+        text-align: center;
+    } */
+
+    .docLabel {
+        padding-bottom: 15px;
+    }
+    .addressText {
+        width: 84%;
+    }
+    .addressIcon,.addressText {
+    vertical-align: top;
+}
+.headerDiv .user img.dropdownImg {
+    padding-top: 10px;}
+
+    table.table.providerTable tbody td:first-child {
+        min-width: 210px;
+    }
+}
+
+
+
+
+/* CLinic page css without header  */
+
+.clinicCon {
+    background-color: #fff;
+    border: 2px solid #F0F0F1;
+    padding-top: 30px;
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.clinicCon h4 {
+    color: #8A898E;
+}
+
+.has-search .form-control {
+    padding-left: 3.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1rem;
+    height: 45px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #8A898E;
+    margin-left: 22px;
+}
+
+.has-search input {
+    padding: 8px;
+    border-radius: 08px;
+    border-width: 2px;
+    border-color: #EDEDEE;
+}
+
+.filter {
+    border-radius: 08px;
+    padding: 9px 18px;
+    background-color: #EDEDEE;
+}
+
+.clinicDiv .card {
+    border: 2px solid #EDEDEE;
+    padding: 17px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.addclinic {
+    border-radius: 08px;
+    padding: 9px 18px;
+    background-color: #F24C46;
+    color: white;
+}
+
+.addclinic:hover {
+    color: white;
+}
+
+.marginleftauto {
+    margin-left: auto;
+}
+
+.addClinicDiv {
+    margin-left: auto;
+    text-align: end;
+}
+
+.addClinicDiv button:hover {
+    box-shadow: 3px 3px 5px rgb(242 76 70);
+    font-weight: 400;
+    background: rgb(237 65 58);
+}
+
+.search {
+    padding: 30px 0;
+}
+
+.clinicData .active {
+    background: #91D4DB;
+    border-radius: 8px;
+    padding: 0px 10px;
+    color: black;
+    font-size: 13px !important;
+    font-weight: 600;
+    padding-top: 2px;
+}
+.clinicData .active.inactive {
+    background: #f24c46;
+    color: white;
+}
+.clinicData .active.successfull {
+    background: #43c387;
+    color: white;
+}
+.clinicData .provider {
+    width: fit-content;
+    background: #EDEDEE;
+    padding-bottom: 2px;
+}
+
+.clinicDiv h3 {
+    padding-top: 8px;
+    padding-bottom: 0px;
+    font-size: 16px !important;
+}
+
+.clinicData .details img {
+    max-width: 14px;
+    margin-right: 11px;
+}
+
+.clinicData .details {
+    padding-top: 10px;
+}
+
+.clinicData .details a {
+    text-decoration: none;
+    color: #8A898E;
+}
+
+.clinicData .details a {
+    text-decoration: none;
+    color: #8A898E;
+    width: 85%;
+    display: inline-flex;
+}
+
+.paginationDiv {
+    padding-top: 40px;
+}
+
+.paginationDiv li.page-item a {
+    border: none;
+    color: black;
+}
+
+.paginationDiv li.page-item.current {
+    border-bottom: 1px solid #8A898E;
+}
+
+
+.showingEntries {
+    text-align: end;
+}
+
+.showOutof {
+    color: #8A898E;
+    padding-right: 10px;
+}
+
+.showOutof span {
+    color: #000000;
+}
+
+.showingEntries .showOutof,
+.showingEntries .dropup {
+    display: inline-block;
+}
+
+.btn-showNumbers {
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid #EDEDEE;
+    border-radius: 8px;
+}
+
+.showingEntries .dropup li {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.showpages .dropdown-menu:hover li a {
+    color: #000000;
+}
+
+.showpages .dropdown-item {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.btn-showpage {
+    font-size: 12px;
+    font-weight: 500;
+    color: black !important;
+    border: 1px solid #ededee;
+}
+
+.showpages .dropdown-item:hover,
+.showpages .dropdown-item:active {
+    background-color: #F24C46;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .showingEntries {
+        margin: auto;
+        display: table;
+    }
+    .addClinicDiv button {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+
+    section.clinicSec {
+        margin: 0 10px;
+    }
+
+    button.filter {
+        padding: 9px 14px;
+    }
+
+    .paginationDiv nav {
+        width: fit-content;
+        margin: auto;
+    }
+}
+.viewBusinessModal .login-main span {
+    display: block;
+    padding-top: 5px;
+    color: #8A898E;
+}
+
+/* Provider page  */
+.providerBreadcrump h4 {
+    color: #8A898E;
+}
+
+.providersMain {
+    background-color: #fff;
+    border: 2px solid #F0F0F1;
+    padding-top: 30px;
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.providerDetails span {
+    color: #8A898E;
+}
+
+/* @media (max-width: 768px) {
+    .providersMain {
+        margin: 0 10px;
+    }
+} */
+
+a.nodeco {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* timing sheet  */
+.providerName span {
+    font-weight: 700;
+}
+
+.timeSheetMain {
+    background-color: #fff;
+    border: 2px solid #F0F0F1;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+}
+
+table.table.providerTable thead {
+    background: #F9F9F9;
+}
+
+table.table.providerTable thead th {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8A898E;
+    border-bottom: 0;
+    white-space: nowrap;
+
+}
+
+table.table.providerTable tbody td {
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    border-bottom: 2px solid #EDEDEE;
+}
+
+table.providerTable thead th:first-child {
+    border-left-style: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+table.providerTable thead th:last-child {
+    border-right-style: 2px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+td.providerComments {
+    max-width: 300px;
+    word-break: break-word;
+}
+
+table.table.providerTable tbody tr:last-child td {
+    border-bottom: 0;
+    padding-bottom: 12px;
+
+}
+table.trackingSheet th, table.trackingSheet td {
+    font-size: 12px !important;
+    padding-right: 5px!important;
+    padding-left: 5px !important;
+}
+table.table.trackingSheet tbody td:first-child {
+    max-width: 121px;
+}
+.actionImg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inProcess span {
+    background: #91D4DB;
+    border-radius: 8px;
+    padding: 2px 12px;
+    white-space: nowrap;
+}
+
+.paginationDiv a {
+    background: transparent;
+}
+
+.paginationTracking .paginationDiv {
+    padding: 30px 0;
+}
+.pagination li.page-item.active {
+    background: #91d4db;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.pagination li.page-item .page-link{
+    background: none;
+    color: #000000;
+}
+/* file upload button */
+input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    /* height: 40px; */
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+    background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+    background-color: #e5e7eb;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+/* modal css  */
+
+/* Ensure the modal body is scrollable if content exceeds its height */
+.modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-static .modal-backdrop {
+    cursor: pointer;
+}
+
+.modal-content {
+    border: 1px solid #EDEDEE;
+    border-radius: 10px;
+}
+
+.modal-content .modal-header .btn-close {
+    box-sizing: unset;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.modal-header {
+    border-bottom: 2px solid #EDEDEE;
+}
+
+.modal-body label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    line-height: 1.2em;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+
+.modal-content input,
+.modal-content select {
+    border: 2px solid #EDEDEE;
+    width: 100%;
+    border-radius: 08px;
+    padding: 5px 10px;
+}
+
+.modal-content option {
+    padding: 5px 10px;
+}
+
+.modalColumn {
+    padding-top: 7px;
+}
+
+.modal-body input::placeholder,
+.modal-body select {
+    font-size: 14px !important;
+    font-weight: 500;
+    color: #8A898E;
+}
+
+.modal-content select {
+    padding: 8px 10px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer .modalCancel {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+
+.modal-footer .modalSave {
+    background-color: #F24C46;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 0;
+}
+.addClinicModal .modal-dialog .modal-content {
+    max-height: 85vh;
+}
+.addProviderModal .modal-dialog .modal-content {
+    max-height: 85vh;
+}
+.addProviderModal .modal-body {
+    max-height: fit-content;
+    overflow-y: inherit;
+}
+.addProviderModal .modal-dialog .modal-content {
+    max-height: fit-content;
+}
+.modal-body .providerDetailsForms {
+    padding-bottom: 0px;
+}
+.form-group input {
+    display: block;
+}
+button.btn.edit:hover img {
+    filter: grayscale(1);
+}
+button.btn.edit:hover {
+    background: #39c5e2;
+    color: white;
+}
+section.providerTableSec {
+    overflow-x: auto;
+}
+.addClinicModal .modal-dialog label{
+    color: gray;
+}
+@media(min-width:576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+    .addClinicModal .modal-dialog {
+        max-width: 1100px;
+    }
+    .addProviderModal .modal-dialog {
+        max-width: 1000px;
+    }
+}
+
+td.providerComments {
+    min-width: 200px;
+
+}
+td.providerComments a{
+    font-size: 12px;
+    color: blue;
+}
+table.table.providerTable tbody td:first-child {
+    min-width: 130px;
+}
+.row.login-wrapper {
+    height: 100vh;
+}
+.login-wrapper .col-xl-6.p-0 {
+    margin: auto;
+    background-color: white;
+}
+.login-box-wrap .card {
+    border: none;
+}
+div#app {
+    overflow-x: hidden;
+}
+.headerDiv .dropdown:hover a {
+    background: white;
+    color: #8a89aa;
+}
+.headerDiv .dropdown-menu {
+    padding: 0;
+    border: none;
+}
+.headerDiv .dropdown-menu {
+    padding: 0;
+    border: 2px solid gray !important;
+}
+.headerDiv .dropdown a:hover {
+    background: #F24C46;
+    color: white;
+}
+/* Login Banner  */
+
+.loginBanner {
+    background-image: url("../images/loginBanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.ploginBanner {
+    background-image: url(../images/loginBannerprovider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+img.loginCircle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 170px;
+    z-index: 0;
+}
+
+.loginColumn {
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+img.loginLogo {
+    max-width: 250px;
+    padding-bottom: 45px;
+}
+
+.loginText {
+    /* position: absolute;
+    top: 12%; */
+    /* width: -webkit-fill-available; */
+    padding-right: 5em;
+    z-index: 1;
+    margin: auto;
+}
+
+.loginColumn h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.loginColumn p {
+    font-size: 14px;
+    color: #53575A;
+}
+
+.loginColumn button {
+    background: white;
+    color: #e92419;
+    border-color: #e92419;
+}
+
+.loginColumn button:hover {
+    background: #e92419;
+    color: #ffffff;
+    border-color: #e92419;
+}
+.loginColumn input,.loginColumn button {
+    border-radius: 8px;
+}
+.loginColumn .form-control:focus {
+    border-color: #f1958f;
+    box-shadow: 0 0 0 0.25rem rgb(241 149 143);
+}
+@media (max-width:992px) {
+    .loginText {
+        padding: 0;
+    }
+
+    .loginBanner {
+        display: none;
+    }
+
+    .loginText {
+        position: inherit;
+    }
+    .loginColumn h4 {
+        font-size: 24px;
+    }
+    img.loginCircle {
+        position: fixed;
+    }
+    .loginColumn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255 255 255 / 80%);
+    }
+    .loginColumn {
+        background-image: url(../images/loginBanner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .ploginColumn {
+        background-image: url(../images/loginBannerprovider.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+@media (max-width:767px){
+    .headerDiv .welcome span {
+        display: none;
+    }
+    .headerDiv .welcome img.wave{
+        display: none;
+    }
+}
+
+.onoff {
+
+    display: -moz-inline-stack;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    /* *vertical-align: auto; */
+
+    zoom: 1;
+
+    /* *display: inline; */
+
+    position: relative;
+
+    cursor: pointer;
+
+    width: 55px;
+
+    height: 30px;
+
+    line-height: 30px;
+
+    font-size: 14px;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.onoff label {
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+    width: 100%;
+
+    height: 100%;
+
+    cursor: pointer;
+
+    background: #cd3c3c;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    color: #FFF;
+
+    -webkit-transition: background 0.3s, text-indent 0.3s;
+
+    -moz-transition: background 0.3s, text-indent 0.3s;
+
+    -o-transition: background 0.3s, text-indent 0.3s;
+
+    transition: background 0.3s, text-indent 0.3s;
+
+    text-indent: 27px;
+
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
+
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4) inset;
+
+}
+
+.onoff label:after {
+
+    content: 'NO';
+
+    display: block;
+
+    position: absolute;
+
+    top: 05px;
+
+    left: 0px;
+
+    width: 100%;
+
+    font-size: 12px;
+
+    color: #591717;
+
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.35);
+
+    z-index: 1;
+
+}
+.onoff.pf label:after {
+    top: 0;
+}
+.onoff label:before {
+
+    content: '';
+
+    width: 15px;
+
+    height: 24px;
+
+    border-radius: 3px;
+
+    background: #FFF;
+
+    position: absolute;
+
+    z-index: 2;
+
+    top: 3px;
+
+    left: 3px;
+
+    display: block;
+
+    -webkit-transition: left 0.3s;
+
+    -moz-transition: left 0.3s;
+
+    -o-transition: left 0.3s;
+
+    transition: left 0.3s;
+
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+}
+
+.onoff input:checked + label {
+
+    background: #378b2c;
+
+    text-indent: 8px;
+
+}
+
+.onoff input:checked + label:after {
+
+    content: 'YES';
+
+    color: #091707;
+
+}
+
+.onoff input:checked + label:before {
+
+    left: 37px;
+
+}
+
+.onoff input#checkboxID:focus {
+
+    box-shadow: none !important;
+
+}
+/* radio button  */
+
+
+
+.radio {
+
+    margin: 0.5rem;
+
+input[type="radio"] {
+
+  /*  position: absolute;
+
+    opacity: 0;*/
+
++ .radio-label {
+
+&:before {
+
+     content: '';
+
+     background: #f4f4f4;
+
+     border-radius: 100%;
+
+     border: 1px solid darken(#f4f4f4, 25%);
+
+     display: inline-block;
+
+     width: 1.4em;
+
+     height: 1.4em;
+
+     position: relative;
+
+     top: -0.2em;
+
+     margin-right: 1em;
+
+     vertical-align: top;
+
+     cursor: pointer;
+
+     text-align: center;
+
+     transition: all 250ms ease;
+
+ }
+
+}
+
+&:checked {
+
++ .radio-label {
+
+&:before {
+
+     background-color: #3197EE;
+
+     box-shadow: inset 0 0 0 4px #f4f4f4;
+
+ }
+
+}
+
+}
+
+&:focus {
+
++ .radio-label {
+
+&:before {
+
+     outline: none;
+
+     border-color: #3197EE;
+
+ }
+
+}
+
+}
+
+&:disabled {
+
++ .radio-label {
+
+&:before {
+
+     box-shadow: inset 0 0 0 4px #f4f4f4;
+
+     border-color: darken(#f4f4f4, 25%);
+
+     background: darken(#f4f4f4, 25%);
+
+ }
+
+}
+
+}
+
++ .radio-label {
+
+&:empty {
+
+&:before {
+
+     margin-right: 0;
+
+ }
+
+}
+
+}
+
+}
+
+}
+
+.radio input,.radio label{
+
+    width: auto;
+
+}
+
+.radio input, .radio label, .radio {
+
+    width: auto;
+
+    display: inline-flex;
+
+
+
+}
+
+.radio input {
+
+    margin-right: 10px;
+
+    margin-left: 5px;
+
+}
+
+.clinicData .active {
+    height: fit-content;
+    padding: 3px 10px;
+}
+
+/* Provide detail page */
+.providerDetailsTab a.breadcrumbNesitem.active {
+    border: none;
+    color: red !important;
+    border-bottom: 3px solid;
+}
+.providerDetailsTab a:hover {
+    color: red !important;
+}
+.card.genInfo.info select:disabled {
+    background: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #919295;
+    padding-left: 0;
+}
+textarea.editRemark {
+    height: 80px;
+}
+
+/* copy write  */
+.copyright {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+img.cusIcon {
+    width: 33px;
+    height: 33px;
+    margin-right: 5px;
+}
+img.cusIconSm {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
